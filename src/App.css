@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+.joke-container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    width: 80%;
+    gap: 20px;
+    border-radius: 30px;
+    max-width: 500px;
+}
+
+.joke{
+    background: linear-gradient(45deg,rgb(196, 196, 196),white);
+    color: black;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.joke-container button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.joke-container button:hover{
+    background-color: rgb(188, 188, 188);
+
+}
